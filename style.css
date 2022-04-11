@@ -121,7 +121,8 @@
                     font-size: 25px;
                 }
                 
-                p #name {
-                    font-size: 30px;
-                    border-top: 100px;
+                #name {
+                    border-top: 1.5px solid;
+                    height: 30px;
+                    margin-bottom: 20px;
                 }
