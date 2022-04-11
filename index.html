@@ -6,50 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css-Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!--Sections/Images-->
-    <div id="1">
-        <img src="https://www.oho.co.uk/uploads/softwaretechnews.png" alt="software-tech-news" id="image1">
+    <div class="flex-wrapper">
+        <div id="1" class="one">
+            <h2>Hey, I'm Toluwalase</h2>
+            <h4>a programmer</h4>
+            <h3>About Me</h3>
+            <img src="https://www.oho.co.uk/uploads/softwaretechnews.png" alt="software-tech-news" id="image1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia mollitia odit quisquam modi vel, iusto natus necessitatibus earum delectus doloremque provident possimus, amet sit?</p>
+        </div>
+
+        <div id="2" class="two">
+            <h3 id="skills">My skills</h3>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/242/488/original/vector-female-developer.jpg" alt="female-developer" id="image2">
+            <h3 id="skills">Programming</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate quae necessitatibus cupiditate est hic numquam, laborum ullam veniam laboriosam!</p>
+        </div>
+
+        <div id="3" class="three">
+            <img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg" alt="Web-Development" id="image3">
+            <h3 id="skills">Front-end Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate quae necessitatibus cupiditate est hic numquam, laborum ullam veniam laboriosam!</p>
+        </div>
+
+        <div id="4" class="four">
+            <h3 id="services">Services</h3>
+            <p>Here is a list services I can offer you</p>
+            <ul>
+                <li>Web Development</li>
+                <li>Programmming</li>
+                <li>Product design</li>
+            </ul>
+        </div>
+        <div id="5" class="five">
+            <p id="p">Would you love to do business with me?</p>
+            <h3 id="services">Get in touch.</h3>
+            <!--Details-->
+            <p class="detail">Enter your fullname:</p>
+            <input id="name" type="text"><br>
+            <p class="detail">Enter your email: </p>
+            <input id="email" type="email"><br>
+            <br>
+            <!--Textarea-->
+            <textarea name="Your Comments..." id="text_area" cols="30" rows="10" placeholder="Your Comments..."></textarea> <br>
+            <!--Gender radio-->
+            <input id="radio-male" type="radio" value="Male" name="gender">
+            <label for="male">Male</label><br>
+            <input id="radio-female" type="radio" value="Female" name="gender">
+            <label for="female">Female</label><br>
+            <input id="radio-others" type="radio" value="Others" name="gender">
+            <label for="others">Others</label><br>
+            <!--CHeckboxes-->
+            <br>
+            <input id="checkbox-cricket" type="checkbox" value="Cricket" name="checkbox-cricket">
+            <label for="checkbox-cricket">Cricket</label><br>
+            <input id="checkbox-football" type="checkbox" value="Football" name="checkbox-football">
+            <label for="checkbox-football">Football</label><br>
+            <input id="checkbox-hockey" type="checkbox" value="Hockey" name="checkbox-hockey">
+            <label for="checkbox-hockey">Hockey</label><br>
+            <!--Submit button-->
+            <button type="submit" id="submit_button">Submit</button>
+        </div>
     </div>
-    <div id="2">
-        <img src="https://static.vecteezy.com/system/resources/previews/000/242/488/original/vector-female-developer.jpg" alt="female-developer" id="image2">
-    </div>
-    <div id="3">
-        <img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg" alt="Web-Development" id="image3">
-    </div>
-    <div id="4">
-        <img src="https://pluspng.com/img-png/software-developer-png-team-of-software-developers-744.png" alt="Developers-Meeting" id="image4">
-    </div>
-    <div id="5">
-        <img src="https://getwallpapers.com/wallpaper/full/6/3/3/491050.jpg" alt="Web-Developer-wallpaper" id="image5">
-    </div>
-    <!--Details-->
-    <p>Fullname: <input id="name" type="text"></p> <br>
-    <p>Email: <input id="email" type="email"></p><br>
-    <br>
-    <!--Textarea-->
-    <textarea name="Your Comments..." id="text_area" cols="30" rows="10" placeholder="Your Comments..."></textarea> <br>
-    <!--Gender radio-->
-    <input id="radio-male" type="radio" value="Male" name="gender">
-    <label for="male">Male</label><br>
-    <input id="radio-female" type="radio" value="Female" name="gender">
-    <label for="female">Female</label><br>
-    <input id="radio-others" type="radio" value="Others" name="gender">
-    <label for="others">Others</label><br>
-    <!--CHeckboxes-->
-    <br>
-    <input id="checkbox-cricket" type="checkbox" value="Cricket" name="checkbox-cricket">
-    <label for="checkbox-cricket">Cricket</label><br>
-    <input id="checkbox-football" type="checkbox" value="Football" name="checkbox-football">
-    <label for="checkbox-football">Football</label><br>
-    <input id="checkbox-hockey" type="checkbox" value="Hockey" name="checkbox-hockey">
-    <label for="checkbox-hockey">Hockey</label><br>
-    <!--Submit button-->
-    <button type="submit" id="submit_button">Submit</button>
+
+
     <!--Footer-->
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <p>@ 2022 Oluwadare Toluwalase</p>
+    </footer>
 
 </body>
 
